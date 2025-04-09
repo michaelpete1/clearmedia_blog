@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["dom", "esnext"],
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "types": ["d3"],
+
+    // Resolve all TypeScript and Vue files correctly
+    "jsx": "preserve",
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*",
+    "src/shims-vue.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
