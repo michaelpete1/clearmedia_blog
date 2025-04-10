@@ -1,5 +1,5 @@
 <template>
-  <div class="flex min-h-screen">
+  <div class="flex flex-col md:flex-row min-h-screen">
     <!-- Left side -->
     <div class="w-full md:w-1/2 bg-gradient-to-b from-blue-300 via-purple-500 to-purple-900 flex flex-col items-center justify-center text-white p-8">
       <div class="max-w-md">
@@ -12,7 +12,7 @@
     </div>
 
     <!-- Right side (login form) -->
-    <div class="hidden md:flex md:w-1/2 bg-white items-center justify-center p-8">
+    <div class="w-full md:w-1/2 bg-white flex items-center justify-center p-6 sm:p-8">
       <div class="w-full max-w-sm">
         <div class="text-center mb-10">
           <h2 class="text-2xl font-semibold text-gray-800">Hello Again!</h2>

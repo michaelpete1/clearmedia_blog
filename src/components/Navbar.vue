@@ -8,7 +8,7 @@ const isHovered = ref(false);
 
 <template>
   <nav
-    class="top-0 left-0 w-full z-50 shadow-lg p-4 transition-opacity duration-300"
+    class="top-0 left-0 w-full z-50 shadow-lg p-4 transition-opacity duration-300 "
     :class="isHovered ? 'bg-gray-900 opacity-100' : 'bg-gray-900/50 opacity-60'"
     @mouseenter="isHovered = true"
     @mouseleave="isHovered = false"
