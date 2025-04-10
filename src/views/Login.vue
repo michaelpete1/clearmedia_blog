@@ -3,7 +3,7 @@
     <!-- Left side -->
     <div class="w-full md:w-1/2 bg-gradient-to-b from-blue-300 via-purple-500 to-purple-900 flex flex-col items-center justify-center text-white p-8">
       <div class="max-w-md">
-        <h1 class="text-6xl font-bold mb-3">Clearmedia</h1>
+        <h1 class="text-6xl font-bold mb-2">Clearmedia</h1>
         <p class="text-lg mb-8">News at your fingertips</p>
       </div>
     </div>
@@ -66,8 +66,6 @@
 import { defineComponent, ref } from 'vue';
 import { useRouter } from 'vue-router';
 import axios from 'axios';
-import { View } from 'lucide-react';
-import Posts from './Posts.vue';
 
 export default defineComponent({
   name: 'LoginPage',
