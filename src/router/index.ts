@@ -6,6 +6,7 @@ import Posts from '../views/Posts.vue';
 import Post from '../views/Post.vue'
 import Settings from '../views/Settings.vue';
 import Home from '../views/Home.vue'
+import Contacts from '../views/Contacts.vue'
 
 
 const routes = [
@@ -15,6 +16,7 @@ const routes = [
   { path: '/Posts', name: 'Engagement', component: Posts },
   { path: '/Post', name: 'Post', component: Post },
   { path: '/Settings', name: 'Settings', component: Settings },
+  { path: '/Contacts', name: 'Contacts', component: Contacts },
 ];
 
 const router = createRouter({
